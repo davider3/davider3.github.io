@@ -158,6 +158,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
 }
 
+// FIXME project modal
 const portfolioModalContainer = document.querySelector("[data-portfolio-modal-container]");
 const portfolioModalOverlay = document.querySelector("[data-portfolio-modal-overlay]");
 
