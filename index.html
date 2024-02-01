@@ -244,7 +244,7 @@
                 <h4 class="h4 service-item-title">Mechatronic Systems</h4>
 
                 <p class="service-item-text">
-                  Integration of Electrical and Mechanical Systems
+                  Integration and Control of Electrical and Mechanical Systems
                 </p>
               </div>
 
@@ -342,29 +342,6 @@
                 Nolan
                 Prof Munro
             -->
-
-            <!-- <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li> -->
-
           </ul>
 
         </section>
@@ -892,27 +869,60 @@
           <!-- PROJECTS -->
           <ul class="project-list">
 
-            <li class="project-item  active" data-filter-item data-category="web development">
+            <li class="project-item active" data-filter-item data-category="web development" data-portfolio-project>
               <a href="#">
-
+            
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+            
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy" data-portfolio-img>
                 </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
+            
+                <h3 class="project-title" data-portfolio-title>Finance</h3>
+            
+                <p class="project-category" data-portfolio-category>Web development</p>
+            
               </a>
             </li>
 
           </ul>
 
         </section>
+
+        <!-- FIXME: PROJECT MODAL -->
+        <div class="modal-container" data-portfolio-modal-container>
+
+          <div class="overlay" data-portfolio-modal-overlay></div>
+
+          <section class="portfolio-modal">
+
+            <button class="modal-close-btn" data-portfolio-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="" alt="" data-portfolio-modal-img>
+              </figure>
+
+              <!-- You can add additional elements for videos if needed -->
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-portfolio-modal-title></h4>
+
+              <div data-portfolio-modal-text>
+                <!-- This is where your project description will be displayed -->
+              </div>
+
+            </div>
+
+          </section>
+        </div>
+
 
       </article>
 
