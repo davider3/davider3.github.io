@@ -1,19 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
+/* CUSTOM PROPERTY */
 
 :root {
 
@@ -69,9 +54,7 @@
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
 
-  /**
-   * typography
-   */
+  /* typography */
 
   /* font-family */
   --ff-poppins: 'Poppins', sans-serif;
@@ -92,9 +75,7 @@
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
+  /* shadow */
   
   --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
   --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
@@ -102,22 +83,14 @@
   --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
   --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
 
-  /**
-   * transition
-   */
+  /* transition */
 
   --transition-1: 0.25s ease;
   --transition-2: 0.5s ease-in-out;
 
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+/* RESET */
 
 *, *::before, *::after {
   margin: 0;
@@ -161,9 +134,7 @@ body { background: var(--smoky-black); }
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+/* REUSED STYLE */
 
 .sidebar,
 article {
@@ -292,13 +263,7 @@ article.active {
   z-index: -1;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #MAIN
-\*-----------------------------------*/
+/* MAIN */
 
 main {
   margin: 15px 12px;
@@ -306,13 +271,7 @@ main {
   min-width: 259px;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #SIDEBAR
-\*-----------------------------------*/
+/* SIDEBAR */
 
 .sidebar {
   margin-bottom: 15px;
@@ -446,13 +405,7 @@ main {
 
 .social-item .social-link:hover { color: var(--light-gray); }
 
-
-
-
-
-/*-----------------------------------*\
-  #NAVBAR
-\*-----------------------------------*/
+/* NAVBAR */
 
 .navbar {
   position: fixed;
@@ -487,13 +440,7 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
-
-
-
-
-/*-----------------------------------*\
-  #ABOUT
-\*-----------------------------------*/
+/* ABOUT */
 
 .about .article-title { margin-bottom: 15px; }
 
@@ -506,11 +453,7 @@ main {
 
 .about-text p { margin-bottom: 15px; }
 
-
-
-/**
- * #service 
- */
+/* service */
 
 .service { margin-bottom: 35px; }
 
@@ -556,9 +499,7 @@ main {
 }
 
 
-/**
- * #testimonials 
- */
+/* testimonials */
 
 .testimonials { margin-bottom: 30px; }
 
@@ -608,9 +549,7 @@ main {
 }
 
 
-/**
- * #testimonials-modal
- */
+/* testimonials-modal */
 
 .modal-container {
   position: fixed;
@@ -722,9 +661,7 @@ main {
 }
 
 
-/**
- * #clients 
- */
+/* clients */
 
 .clients { margin-bottom: 15px; }
 
@@ -756,20 +693,12 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
-
-
-
-
-/*-----------------------------------*\
-  #RESUME
-\*-----------------------------------*/
+/* RESUME */
 
 .article-title { margin-bottom: 30px; }
 
 
-/**
- * education and experience 
- */
+/* education and experience */
 
 .timeline { margin-bottom: 30px; }
 
@@ -830,9 +759,7 @@ main {
 }
 
 
-/**
- * skills 
- */
+/* skills */
 
 .skills-title { margin-bottom: 20px; }
 
@@ -867,13 +794,7 @@ main {
   border-radius: inherit;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #PORTFOLIO
-\*-----------------------------------*/
+/* PORTFOLIO */
 
 .filter-list { display: none; }
 
@@ -1140,9 +1061,7 @@ main {
 }
 
 
-/*-----------------------------------*\
-  #BLOG
-\*-----------------------------------*/
+/* BLOG */
 
 .blog-posts { margin-bottom: 10px; }
 
@@ -1224,13 +1143,7 @@ main {
   line-height: 1.6;
 }
 
-
-
-
-
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
+/* CONTACT */
 
 .mapbox {
   position: relative;
@@ -1331,17 +1244,9 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+/* RESPONSIVE */
 
-
-
-
-/*-----------------------------------*\
-  #RESPONSIVE
-\*-----------------------------------*/
-
-/**
- * responsive larger than 450px screen
- */
+/* responsive larger than 450px screen */
 
 @media (min-width: 450px) {
 
@@ -1362,13 +1267,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-
-
-
-
-/**
- * responsive larger than 580px screen
- */
+/* responsive larger than 580px screen */
 
 @media (min-width: 580px) {
 
@@ -1651,13 +1550,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-
-
-
-
-/**
- * responsive larger than 768px screen
- */
+/* responsive larger than 768px screen */
 
 @media (min-width: 768px) {
 
@@ -1751,13 +1644,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   
 }
 
-
-
-
-
-/**
- * responsive larger than 1024px screen
- */
+/* responsive larger than 1024px screen */
 
 @media (min-width: 1024px) {
 
@@ -1866,13 +1753,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
-
-
-
-
-/**
- * responsive larger than 1250px screen
- */
+/* responsive larger than 1250px screen */
 
 @media (min-width: 1250px) {
 
