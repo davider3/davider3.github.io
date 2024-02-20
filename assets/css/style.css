@@ -947,40 +947,6 @@ main {
   font-weight: var(--fw-300);
 }
 
-/* FIXME: Portfolio Modal Container Styles */
-
-.modal {
-  display: none;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  padding: 20px;
-  z-index: 1000;
-}
-
-.modal.active {
-  display: block;
-}
-
-.overlay {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 999;
-}
-
-.overlay.active {
-  display: block;
-}
-
-
-
 /* BLOG */
 
 .blog-posts { margin-bottom: 10px; }
@@ -1482,30 +1448,20 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
-
-
-  /**
-   * SIDEBAR
-   */
+  /* SIDEBAR */
 
   .contacts-list {
     grid-template-columns: 1fr 1fr;
     gap: 30px 15px;
   }
 
-
-
-  /**
-   * NAVBAR
-   */
+  /* NAVBAR */
 
   .navbar-link { --fs-8: 15px; }
 
 
 
-  /**
-   * ABOUT
-   */
+  /* ABOUT */
 
   /* testimonials modal */
 
@@ -1518,9 +1474,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 
 
-  /**
-   * PORTFOLIO
-   */
+  /* PORTFOLIO */
 
   .article-title { padding-bottom: 20px; }
 
